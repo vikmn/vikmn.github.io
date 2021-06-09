@@ -25,5 +25,6 @@ export const pageQuery = graphql`
     image: file(base: { eq: "dog-hero.jpg" }) {
       publicURL
     }
+    
   }
 `
